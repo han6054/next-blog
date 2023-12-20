@@ -21,9 +21,12 @@ const AboutCoverSection = () => {
         </h2>
         <p className="font-medium capitalize mt-4 text-base">
           My name is Han Jiajun, I am a passionate (react,vue) front-end
-          development and full-stack development engineer, currently in Henan,
-          China. If you are interested in my skills and experience please feel
-          free to contact me.
+          development and{" "}
+          <span className="text-lg font-extrabold text-green-700">
+            full-stack development
+          </span>
+          engineer, currently in Henan, China. If you are interested in my
+          skills and experience please feel free to contact me.
         </p>
         <p className="font-medium capitalize mt-4 text-base">
           我是韩佳骏， 一名充满热情的react,vue前端开发者和
