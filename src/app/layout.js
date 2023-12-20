@@ -4,6 +4,7 @@ import { cx } from "../utils/index";
 import Header from "@/src/components/Header";
 import siteMetadata from "../utils/siteMetaData";
 import Script from "next/script";
+import Footer from "@/src/components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -66,12 +67,12 @@ export default function RootLayout({ children }) {
           {`if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     document.documentElement.classList.add('dark')
   } else {
-    document.documentElement.classList.remove('dark')
+    document.documentElement.classList.remove('dark') 
   }`}
         </Script>
         <Header />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
