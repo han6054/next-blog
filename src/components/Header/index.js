@@ -78,9 +78,9 @@ const Header = () => {
         <Link href="/about" className="mx-2">
           About
         </Link>
-        <Link href="/contact" className="mx-2">
+        {/* <Link href="/contact" className="mx-2">
           Contact
-        </Link>
+        </Link> */}
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
           className={cx(
@@ -107,9 +107,9 @@ const Header = () => {
         <Link href="/about" className="mx-2">
           About
         </Link>
-        <Link href="/contact" className="mx-2">
+        {/* <Link href="/contact" className="mx-2">
           Contact
-        </Link>
+        </Link> */}
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
           className={cx(

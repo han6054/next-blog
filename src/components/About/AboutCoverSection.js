@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import profileCharacter from "../../../public/character.png";
+import wechat from "../../../public/wechat.jpg";
 
 const AboutCoverSection = () => {
   return (
@@ -8,7 +9,6 @@ const AboutCoverSection = () => {
       <div className="w-full md:w-1/2 h-full border-r-2 border-solid border-dark dark:border-light flex justify-center">
         <Image
           src={profileCharacter}
-          alt="CodeBucks"
           className="w-4/5  xs:w-3/4 md:w-full h-full object-contain object-center"
           priority
           sizes="(max-width: 768px) 100vw,(max-width: 1180px) 50vw, 50vw"
@@ -17,15 +17,20 @@ const AboutCoverSection = () => {
 
       <div className="w-full md:w-1/2 flex flex-col text-left items-start justify-center px-5 xs:p-10 pb-10 lg:px-16">
         <h2 className="font-bold capitalize text-4xl xs:text-5xl sxl:text-6xl  text-center lg:text-left">
-          Dream Big, Work Hard, Achieve More!
+          About Me
         </h2>
         <p className="font-medium capitalize mt-4 text-base">
-          This Mantra Drives My Work As A Passionate Freelancer. I Blend
-          Innovative Technology With Timeless Design For Captivating Digital
-          Experiences. Inspired By Nature And Literature, I'm A Perpetual
-          Learner Embracing Challenges. With Each Project, I Aim To Leave A
-          Lasting Impact—One Pixel At A Time.
+          My name is Han Jiajun, I am a passionate (react,vue) front-end
+          development and full-stack development engineer, currently in Henan,
+          China. If you are interested in my skills and experience please feel
+          free to contact me.
         </p>
+        <p className="font-medium capitalize mt-4 text-base">
+          我是韩佳骏， 一名充满热情的react,vue前端开发者和
+          全栈开发工程师，目前居住在中国河南。
+          如果您对我的技能和经验感兴趣，请随时 联络我
+        </p>
+        <Image src={wechat} className="w-80 mt-5" />
       </div>
     </section>
   );
