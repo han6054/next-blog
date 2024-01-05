@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "encoding": "^0.1.13",
+    "next-transpile-modules": "^10.0.1",
     "sharp": "^0.32.6"
   }
 }

@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const { withContentlayer } = require("next-contentlayer");
+const withTM = require("next-transpile-modules")(["three"]);
 
 const nextConfig = {
   compiler: {
@@ -8,4 +9,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withContentlayer({ ...nextConfig });
+module.exports = withContentlayer({ ...nextConfig, ...withTM });
