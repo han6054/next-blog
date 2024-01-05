@@ -23,7 +23,7 @@ const Play = {
   },
   camera: null,
   setCamera() {
-    const perspective = 800;
+    const perspective = 400;
     const fov =
       (180 * (2 * Math.atan(window.innerHeight / 2 / perspective))) / Math.PI;
     const camera = new THREE.PerspectiveCamera(

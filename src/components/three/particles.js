@@ -6,8 +6,8 @@ class Particles {
   //   wins = [];
   win = {};
   outerR = 400; // 粒子系统外部半径
-  innerR = 100; // 粒子系统内部半径
-  outerNum = 4000; // 外部粒子数量
+  innerR = 200; // 粒子系统内部半径
+  outerNum = 6000; // 外部粒子数量
   innerNum = 4000; // 内部粒子数量
   beamNum = 200; // 粒子光束数量
   _colors = [0x00ffff, 0x00ff00, 0x00ffff, 0xffc0cb, 0xff00ff];
