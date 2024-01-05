@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { OrbitControls } from "../../../node_modules/three/examples/jsm/controls/orbitControls";
+import { OrbitControls } from "three/examples/jsm/controls/orbitControls";
 import Particles from "./particles";
 
 const Play = {
