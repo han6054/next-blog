@@ -33,7 +33,7 @@ const AboutCoverSection = () => {
           全栈开发工程师，目前居住在中国河南。
           如果您对我的技能和经验感兴趣，请随时 联络我
         </p>
-        <Image src={wechat} className="w-80 mt-5" />
+        <Image src={wechat} className="w-36 mt-5" />
       </div>
     </section>
   );
