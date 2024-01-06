@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { OrbitControls } from "three/examples/jsm/controls/orbitControls";
+import { OrbitControls } from "./orbitControls";
 import Particles from "./particles";
 
 const Play = {
@@ -23,7 +23,7 @@ const Play = {
   },
   camera: null,
   setCamera() {
-    const perspective = 400;
+    const perspective = 500;
     const fov =
       (180 * (2 * Math.atan(window.innerHeight / 2 / perspective))) / Math.PI;
     const camera = new THREE.PerspectiveCamera(
