@@ -1,9 +1,10 @@
 const SkillList = [
-  "next.js",
+  "javaScript",
   "tailwind css",
   "react.js",
   "vue.js",
-  "javaScript",
+  "next.js",
+  "nuxt.js",
   "web design",
   "SEO",
   "taro",
